@@ -1,0 +1,43 @@
+[
+    {
+      "Title": "Interfaith Community Gathering",
+      "Date": "2025-04-10",
+      "Location": "New York, NY",
+      "Description": "A gathering to foster understanding and unity among different faith communities.",
+      "Category": "religious",
+      "Image": "https://i.ibb.co.com/0WhXD74/banner.jpg"
+    },
+    {
+      "Title": "Charity Drive For Poor",
+      "Date": "2025-05-05",
+      "Location": "Los Angeles, CA",
+      "Description": "Join us in collecting and distributing essentials to those in need.",
+      "Category": "charity",
+      "Image": "https://example.com/images/charity-drive-for-underprivileged.jpg"
+    },
+    {
+      "Title": "Spiritual Wellness Workshop",
+      "Date": "2025-06-15",
+      "Location": "Chicago, IL",
+      "Description": "A workshop on mindfulness, meditation, and spiritual growth.",
+      "Category": "religious",
+      "Image": "https://i.ibb.co.com/0WhXD74/banner.jpg"
+    },
+    {
+      "Title": "Youth Leadership Conference",
+      "Date": "2025-07-20",
+      "Location": "Houston, TX",
+      "Description": "Empowering young leaders through discussions on faith, community, and leadership.",
+      "Category": "social",
+      "Image": "https://example.com/images/youth-leadership-conference.jpg"
+    },
+    {
+      "Title": "Cultural Music & Art Festival",
+      "Date": "2025-08-12",
+      "Location": "San Francisco, CA",
+      "Description": "Celebrating diverse cultures through music, art, and performances.",
+      "Category": "social",
+      "Image": "https://example.com/images/cultural-music-art-festival.jpg"
+    }
+  ]
+  
