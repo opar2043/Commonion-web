@@ -41,8 +41,8 @@ const AddEvent = () => {
   
   return (
     <div>
-        <div className="max-w-lg mx-auto bg-white p-6 rounded-lg shadow-md">
-  <h2 className="text-xl font-bold mb-4">Communion Form</h2>
+        <div className="max-w-lg mx-auto border my-5 bg-white p-6 rounded-lg shadow-lg">
+  <h2 className="md:text-xl text-lg font-bold mb-4 text-center">Communion Form</h2>
   <form className="space-y-4" onSubmit={handleSubmit}>
     <div>
       <label className="block font-medium">Title</label>

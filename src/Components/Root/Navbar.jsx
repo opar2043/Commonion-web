@@ -11,8 +11,8 @@ const Navbar = () => {
     </>
   );
   return (
-    <div>
-      <div className="navbar bg-base-100 border-b md:px-6">
+    <div className="mb-20">
+      <div className="navbar bg-base-100 border-b md:px-6 fixed top-0 z-40 ">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -40,7 +40,7 @@ const Navbar = () => {
           </div>
            <div className="flex items-center">
            <img src="https://i.ibb.co.com/BKBS4Lw3/favicon.png" className="w-8 rounded-lg" alt="" />
-           <a className="btn btn-ghost text-xl">CommunionHub</a>
+           <a className="btn btn-ghost text-xl ">CommunionHub</a>
            </div>
         </div>
         <div className="navbar-center hidden lg:flex">

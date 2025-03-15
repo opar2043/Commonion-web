@@ -12,6 +12,7 @@ import Home from './Components/Root/Home.jsx';
 import About from './Components/Root/About.jsx';
 import Event from './Components/Event.jsx';
 import AddEvent from './Components/Root/AddEvent.jsx';
+import More from './Components/Root/More.jsx';
 
 const router = createBrowserRouter([
   {
@@ -37,6 +38,7 @@ const router = createBrowserRouter([
       },
   ]
   },
+
 ]);
 
 createRoot(document.getElementById('root')).render(
