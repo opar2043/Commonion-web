@@ -1,4 +1,5 @@
 import React from "react";
+import { FaUser } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
@@ -11,7 +12,7 @@ const Navbar = () => {
   );
   return (
     <div>
-      <div className="navbar bg-base-100">
+      <div className="navbar bg-base-100 border-b md:px-6">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -32,18 +33,24 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              className="menu menu-sm font-semibold dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
             >
               {link}
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">CommunionHub</a>
+           <div className="flex items-center">
+           <img src="https://i.ibb.co.com/BKBS4Lw3/favicon.png" className="w-8 rounded-lg" alt="" />
+           <a className="btn btn-ghost text-xl">CommunionHub</a>
+           </div>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">{link}</ul>
+          <ul className="menu menu-horizontal px-1 gap-2 font-semibold">{link}</ul>
         </div>
-        <div className="navbar-end">
-          <a className="btn">Button</a>
+        <div className="navbar-end ">
+          <div className="border border-black rounded-full p-2">
+          <FaUser></FaUser>
+          </div>
+          
         </div>
       </div>
     </div>

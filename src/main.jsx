@@ -11,6 +11,7 @@ import Error from './Components/Root/Error.jsx';
 import Home from './Components/Root/Home.jsx';
 import About from './Components/Root/About.jsx';
 import Event from './Components/Event.jsx';
+import AddEvent from './Components/Root/AddEvent.jsx';
 
 const router = createBrowserRouter([
   {
@@ -30,8 +31,10 @@ const router = createBrowserRouter([
         path: '/event',
         element: <Event></Event>
       },
-
-
+      {
+        path: '/addEvent',
+        element: <AddEvent></AddEvent>
+      },
   ]
   },
 ]);
